@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendarific API</title>
+</head>
+<body>
+    <!-- buttons to display holiday info? or a search bar for you to specifically search for a holiday and it's info? 
+    or possibly search for a specific year and have it display the holiday info for that specific year? -->
+    <div class="form">
+
+        <!-- form where the holiday you want to search for is entered -->
+    <form id='form' onsubmit="fetchResults()">
+        day:<input id='day' type="text"/>
+        month: <input id='month' type="text"/>
+        year: <input id='year' type="text"/>
+    <!-- button pressed to show info -->
+    <button id="search" type="submit">submit</button>
+        
+    </form>
+    
+</div>
+  
+    <script src="./api2.js"></script>
+</body>
+</html>
