@@ -22,6 +22,8 @@ form.onsubmit = function fetchResults(e) {
         }) //converting the data to a usable json object  
         .then(data => console.log('data: ', data))
 }
+
+
 //fetchResults()
 
 //Create a form that grabs the specified date(day, month, year)
